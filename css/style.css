@@ -210,6 +210,8 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
+ 
+   
 }
 
 .slider_section .detail-box h1 {
@@ -575,15 +577,20 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 25px;
+
+  
 }
 
 .client_section .client_container .client_id .img-box {
   width: 75px;
   margin-right: 10px;
+  
 }
 
 .client_section .client_container .client_id .img-box img {
   width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .client_section .client_container .client_id .name h5 {
