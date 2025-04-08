@@ -388,7 +388,7 @@ a:focus {
 }
 
 .work_section .work_container .box {
-  width: 275px;
+  width: 575px;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -429,7 +429,7 @@ a:focus {
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
 }
 .work_section .work_container .box .img-box {
-  width: 150px;
+  width: 80%;
 }
 
 .work_section .work_container .box .img-box img {
