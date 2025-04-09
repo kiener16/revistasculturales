@@ -1,0 +1,92 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+.header-hero {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+}
+
+.header-hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header-hero p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+}
+
+/* Carousel styles */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.carousel-caption h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.carousel-caption p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+/* Controls */
+.carousel-controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-controls button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carousel-controls button:hover {
+    background-color: #555;
+}
+
