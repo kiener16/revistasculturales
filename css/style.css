@@ -322,7 +322,7 @@ a:focus {
 }
 
 .work_section .custom_heading-container h3::before {
-  background-color: #284b63;
+  background-color: #d9043d;
 }
 
 .work_section .work_container {
@@ -662,7 +662,7 @@ a:focus {
 .team_section .custom_heading-container h3 {
   font-size: 2.5rem;
   margin-bottom: 30px;
-  color: #333;
+  color: #c90000;
 }
 
 .team_container {
