@@ -34,7 +34,7 @@ body {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: center;  
 }
 
 .custom_heading-container h3 {
@@ -299,7 +299,7 @@ a:focus {
 }
 
 .work_section .custom_heading-container h3 {
-  color: #ffffff;
+  color: #000000;
 }
 
 .work_section .custom_heading-container h3::before {
@@ -557,6 +557,7 @@ a:focus {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  margin-top: 30px;
 }
 
 .card2 {
