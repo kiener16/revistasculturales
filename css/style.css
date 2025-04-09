@@ -1,13 +1,9 @@
-.color1 {color: #b0ada6;}
-.color2 {color: #e8e9d5;}
-.color3 {color: #060500;}
-.color4 {color: #7a7872;}
-.color5 {color: #f8f8f8;}
+
 
 body {
   font-family: "Roboto", sans-serif;
   color: #090b0d;
-  background-color: #f8f8f8;
+  background-color: #eef0eb;
 }
 
 .layout_padding {
@@ -223,12 +219,12 @@ a:focus {
 .slider_section .detail-box h1 {
   font-weight: bold;
   font-size: 4rem;
-  color: #382f32;
+  color: #153243;
 }
 
 /* Hero carusel texto */
 .slider_section .detail-box h1 span {
-  color: #f1396d;
+  color: #284b63;
 }
 
 .slider_section .slider_nav-box {
@@ -301,15 +297,15 @@ a:focus {
 }
 
 .work_section {
-  background-color: #b0ada6;
+  background-color: #f4f9e9;
 }
 
 .work_section .custom_heading-container h3 {
-  color: #f1f0eb;
+  color: #153243;
 }
 
 .work_section .custom_heading-container h3::before {
-  background-color: #ffffff;
+  background-color: #284b63;
 }
 
 .work_section .work_container {
