@@ -11,8 +11,8 @@
   color: #f4f9e9;
 }
 
-.color5{
-  color:#eef0eb
+.color5 {
+  color: #eef0eb;
 }
 
 body {
@@ -51,7 +51,7 @@ body {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .custom_heading-container h3 {
@@ -237,7 +237,7 @@ a:focus {
   color: #153243;
 }
 
-.detail-box p{
+.detail-box p {
   color: #b4b8ab;
 }
 
@@ -299,8 +299,6 @@ a:focus {
   background-size: cover;
 }
 
-
-
 /* .box2 */
 .box2 {
   width: 275px;
@@ -340,9 +338,10 @@ a:focus {
   padding: 45px 0;
 }
 
-.work_container h4{
+.work_container h4 {
   color: #153243;
   font-weight: bold;
+  margin-top: 19px;
 }
 
 .work_section .work_container .box {
@@ -368,10 +367,14 @@ a:focus {
 
 .work_section .work_container .box .img-box {
   width: 80%;
+  
 }
 
 .work_section .work_container .box .img-box img {
   width: 100%;
+  border-radius: 14px;
+  border: 2px solid #b4b8ab;
+  box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.459); /* Sombra desplazada hacia la derecha */
 }
 
 .work_section .work_container .box .name {
@@ -584,21 +587,18 @@ a:focus {
   margin: 0 auto;
   padding: 0 15px;
   margin-top: 30px;
-  
 }
-
-
 
 .card2 {
   background-color: #ffffff;
-  
+
   border-radius: 8px;
   overflow: hidden;
   padding: 20px;
   text-align: center;
-  /* box-shadow: 0 2px 6px #382f32; */
+  box-shadow: 0 2px 6px #382f32;
   transition: transform 0.2s ease;
-  border: 1px solid #323649;
+  border: 1px solid #b4b8ab;
 }
 
 .card2 img {
@@ -606,13 +606,23 @@ a:focus {
   height: auto;
   border-radius: 6px;
   margin-bottom: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459); /* Sombra desplazada ligeramente hacia la derecha */
+}
+
+.card2 h3{
+  color: #153243;
+  font-weight: bold;
+}
+
+.card2 p{
+  color: #b4b8ab;
 }
 
 .btn-descargar {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 16px;
-  background-color: #f1396d;
+  background-color: #153243;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -621,10 +631,12 @@ a:focus {
 
 .card2:hover {
   transform: translateY(-5px);
+  
 }
 
 .btn-descargar:hover {
-  background-color: #fbc5d8 ;
+  background-color: #284b63;
+  color: white;
 }
 
 @media (min-width: 768px) {
