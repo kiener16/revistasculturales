@@ -1,7 +1,13 @@
+/* .color1 { #382f32 };
+.color2 { #ffeaf2 };
+.color3 { #fcd9e5 };
+.color4 { #fbc5d8 };
+.color5 { #f1396d }; */
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #000000;
-  background-color: #ffffff;
+  color: #382f32;
+  background-color: #ffeaf2;
 }
 
 .layout_padding {
@@ -217,12 +223,12 @@ a:focus {
 .slider_section .detail-box h1 {
   font-weight: bold;
   font-size: 4rem;
-  color: #1a2e35;
+  color: #382f32;
 }
 
 /* Hero carusel texto */
 .slider_section .detail-box h1 span {
-  color: #d9043d;
+  color: #f1396d;
 }
 
 .slider_section .slider_nav-box {
@@ -295,7 +301,7 @@ a:focus {
 }
 
 .work_section {
-  background-color: #d9043d;
+  background-color: #fbc5d8;
 }
 
 .work_section .custom_heading-container h3 {
@@ -333,7 +339,7 @@ a:focus {
   -ms-flex-align: center;
   align-items: center;
   padding: 35px 0 20px 0;
-  background-color: #ffffff;
+  background-color: #ffeaf2;
   border-radius: 5px;
   margin: 45px 10px;
   -webkit-box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
@@ -547,7 +553,7 @@ a:focus {
 
 .card-section2 {
   padding: 40px 20px;
-  background-color: #96afc9;
+  background-color: #fbc5d8;
 }
 
 .card-container2 {
@@ -561,13 +567,13 @@ a:focus {
 }
 
 .card2 {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #ffffff;
+  
   border-radius: 8px;
   overflow: hidden;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 6px #382f32; */
   transition: transform 0.2s ease;
 }
 
@@ -582,7 +588,7 @@ a:focus {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 16px;
-  background-color: #0d6efd;
+  background-color: #f1396d;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -594,7 +600,7 @@ a:focus {
 }
 
 .btn-descargar:hover {
-  background-color: #0b5ed7;
+  background-color: #fbc5d8 ;
 }
 
 @media (min-width: 768px) {
@@ -613,7 +619,7 @@ a:focus {
 
 .team_section {
   padding: 50px 0;
-  background-color: #f9f9f9;
+  background-color: #fbc5d8;
   text-align: center;
 }
 
