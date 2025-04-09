@@ -1,8 +1,23 @@
+.color1 {
+  color: #b4b8ab;
+}
+.color2 {
+  color: #153243;
+}
+.color3 {
+  color: #284b63;
+}
+.color4 {
+  color: #f4f9e9;
+}
 
+.color5{
+  color:#eef0eb
+}
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #090b0d;
+  color: red;
   background-color: #eef0eb;
 }
 
@@ -301,7 +316,7 @@ a:focus {
 }
 
 .work_section .custom_heading-container h3 {
-  color: #153243;
+  color: #284b63;
 }
 
 .work_section .custom_heading-container h3::before {
@@ -319,6 +334,11 @@ a:focus {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 45px 0;
+}
+
+.work_container h4{
+  color: #153243;
+  font-weight: bold;
 }
 
 .work_section .work_container .box {
@@ -549,7 +569,7 @@ a:focus {
 
 .card-section2 {
   padding: 40px 20px;
-  background-color: #e8e9d5;
+  background-color: #f4f9e9;
 }
 
 .card-container2 {
@@ -619,7 +639,7 @@ a:focus {
 
 .team_section {
   padding: 50px 0;
-  background-color: #b0ada6;
+  background-color: #eef0eb;
   text-align: center;
 }
 
