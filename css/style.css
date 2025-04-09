@@ -237,6 +237,10 @@ a:focus {
   color: #153243;
 }
 
+.detail-box p{
+  color: #b4b8ab;
+}
+
 /* Hero carusel texto */
 .slider_section .detail-box h1 span {
   color: #284b63;
