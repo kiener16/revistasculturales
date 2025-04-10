@@ -344,6 +344,8 @@ a:focus {
   margin-top: 19px;
 }
 
+
+/* Animaciones */
 .box {
   opacity: 0;
   transform: translateY(50px); /* Posición inicial (hacia abajo) */
@@ -354,6 +356,21 @@ a:focus {
   opacity: 1;
   transform: translateY(0); /* Posición final (original) */
 }
+
+.team_member {
+  opacity: 0;
+  transform: translateY(50px); /* Posición inicial (hacia abajo) */
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out; /* Animación más lenta */
+}
+
+.team_member.visible {
+  opacity: 1;
+  transform: translateY(0); /* Posición final (original) */
+}
+
+
+
+/* Animaciones */
 
 .work_section .work_container .box {
   width: 585px;

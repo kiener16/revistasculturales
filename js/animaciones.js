@@ -1,21 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const boxes = document.querySelectorAll(".box");
+    const boxes = document.querySelectorAll(".box");
+    const teamMembers = document.querySelectorAll(".team_member");
 
-  const handleScroll = () => {
-    boxes.forEach((box) => {
-      const boxTop = box.getBoundingClientRect().top;
-      const windowHeight = window.innerHeight;
+    const handleScroll = () => {
+        const animateElements = (elements, offset = 100) => {
+            elements.forEach((element) => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
 
-      // Si el elemento está visible en la ventana, agregar la clase 'visible'
-      if (boxTop < windowHeight - 100) {
-        box.classList.add("visible");
-      } else {
-        // Si el elemento no está visible, quitar la clase 'visible'
-        box.classList.remove("visible");
-      }
-    });
-  };
+                if (elementTop < windowHeight - offset) {
+                    element.classList.add("visible");
+                } else {
+                    element.classList.remove("visible");
+                }
+            });
+        };
 
-  window.addEventListener("scroll", handleScroll);
-  handleScroll(); // Ejecutar al cargar la página
+        animateElements(boxes);
+        animateElements(teamMembers);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Ejecutar al cargar la página
 });
