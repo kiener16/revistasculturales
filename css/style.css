@@ -360,7 +360,7 @@ a:focus {
 .team_member {
   opacity: 0;
   transform: translateY(50px); /* Posición inicial (hacia abajo) */
-  transition: opacity 1.5s ease-out, transform 1.5s ease-out; /* Animación más lenta */
+  transition: opacity 5.5s ease-out, transform 5.5s ease-out; /* Animación más lenta */
 }
 
 .team_member.visible {
@@ -393,7 +393,7 @@ a:focus {
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
 }
 
-.work_section .work_container .box .img-box {
+.work_section .work_container .box .img-box  {
   width: 80%;
   
 }
