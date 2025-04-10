@@ -37,6 +37,7 @@
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
   </head>
 
   <body>
@@ -566,5 +567,29 @@
 
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const boxes = document.querySelectorAll(".box");
+
+        const handleScroll = () => {
+          boxes.forEach((box) => {
+            const boxTop = box.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            // Si el elemento está visible en la ventana, agregar la clase 'visible'
+            if (boxTop < windowHeight - 100) {
+              box.classList.add("visible");
+            } else {
+              // Si el elemento no está visible, quitar la clase 'visible'
+              box.classList.remove("visible");
+            }
+          });
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        handleScroll(); // Ejecutar al cargar la página
+      });
+    </script>
   </body>
 </html>

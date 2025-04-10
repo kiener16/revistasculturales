@@ -344,6 +344,17 @@ a:focus {
   margin-top: 19px;
 }
 
+.box {
+  opacity: 0;
+  transform: translateY(50px); /* Posición inicial (hacia abajo) */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.box.visible {
+  opacity: 1;
+  transform: translateY(0); /* Posición final (original) */
+}
+
 .work_section .work_container .box {
   width: 585px;
   height: 100%;
